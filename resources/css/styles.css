@@ -8,7 +8,10 @@
 }
 
 body {
-    background-color: var(--arsenal-darkred);
+    background-color: var(--arsenal-darkred), rgb(239, 1, 7);
     font-family:'Times New Roman', Times, serif;
 }
 
+h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
