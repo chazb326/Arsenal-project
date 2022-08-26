@@ -23,6 +23,8 @@ This project is to test my web dev skills as I learn them
 ---
 **About me**
 
+Software Engineer in training @ Galileo-Insights
+![Image](https://media-exp1.licdn.com/dms/image/C5603AQGXdqqFSnopwA/profile-displayphoto-shrink_400_400/0/1661542332986?e=1666828800&v=beta&t=hSZRoN-L0vVTrS9Rzm8RyClnxWzxWy03vJxouNOOarQ)
 
 ---
 **Love Arsenal?**
