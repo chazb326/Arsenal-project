@@ -2,6 +2,7 @@
 This project is to test my web dev skills as I learn them
 
 **Goals for this project:**
+    
     1. Make a nice UI
     2. Different pages:
         * Fixture list + results
@@ -15,13 +16,16 @@ This project is to test my web dev skills as I learn them
 
 ---
 **What code is used in this project to date?**
+
 `HTML, CSS`
+
 
 ---
 **About me**
 
+
 ---
 **Love Arsenal?**
 
-Their website: [link](https://www.arsenal.com/)
+[Arsenal Website](https://www.arsenal.com/)
 ![Image](https://www.arsenal.com/sites/default/files/styles/large_16x9/public/images/arsenal_crest.jpg?itok=rHw_FYR2)
