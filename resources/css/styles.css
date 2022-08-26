@@ -1,0 +1,14 @@
+/*-Arsenal Color Code variables. :root selector means global-*/
+:root {
+    --arsenal-red: rgb(239, 1, 7);
+    --arsenal-darkred: rgb(219, 0, 7);
+    --arsenal-blue: rgb(6, 54, 114);
+    --arsenal-gold: rgb(156, 130, 74);
+    --arsenal-white: rgb(255, 255, 255);
+}
+
+body {
+    background-color: var(--arsenal-darkred);
+    font-family:'Times New Roman', Times, serif;
+}
+
