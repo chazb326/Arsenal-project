@@ -1,0 +1,121 @@
+/*-Arsenal Color Code variables. :root selector means global
+    --arsenal-red: rgb(239, 1, 7);
+    --arsenal-darkred: rgb(219, 0, 7);
+    --arsenal-blue: rgb(6, 54, 114);
+    --arsenal-gold: rgb(156, 130, 74);
+    --arsenal-white: rgb(255, 255, 255);
+-*/
+
+/*font used as practice for using @font-face*/
+@font-face {
+    font-family: 'monospace';
+    src: url('/assets/fonts/SpaceMono-Bold.ttf') format('truetype'),
+    url('/assets/fonts/SpaceMono-BoldItalic.ttf') format('truetype'),
+    url('/assets/fonts/SpaceMono-Italic.ttf') format('truetype'),
+    url('/assets/fonts/SpaceMono-Regular.ttf') format('truetype');
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family:'monospace';
+    height: 3000px;
+}
+
+h2 {
+    font-family: 'monospace';
+    font-size: 40px;
+}
+
+.banner {
+    background-color: rgb(219, 0, 7);
+    border: 5px solid rgb(156, 130, 74);
+    height: 150px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.banner h1 {
+    font-family: 'monospace';
+    color:rgb(255, 255, 255);
+    font-size: 50px;
+    position: absolute;
+    top: 10px;
+    left: 180px;
+    margin: 0 0;
+}
+
+.banner img {
+    width: 150px;
+    height: auto;
+    padding: 5px 5px;
+    position: relative;
+}
+
+.fixture-list-table {
+    width: 50%;
+    padding: 20px 20px;
+    position: relative;
+    top: 10px;
+    margin: 0 auto;
+    background-image: url(/assets/images/emirates.jpg);
+    background-position: center;
+    border: 1px solid black;
+}
+
+table {
+    width: 90%;
+    font-family: 'monospace';
+    margin: 0 auto;
+    text-align: center;
+    border-collapse: collapse;
+    position: relative;
+    padding: 10px 10px;
+    background-color: rgba(255, 255, 255, .9);
+}
+
+table th {
+    border: 5px solid rgb(156, 130, 74);
+    width: 25%;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(100, 100, 100, .95);
+    border-bottom: 0;
+}
+
+table td{
+    border:5px solid rgb(156, 130, 74);
+    width: 25%;
+    height: 80px;
+    position: relative;
+}
+
+table td.where {
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(219, 0, 7);
+}
+
+table td img {
+    height: 80%;
+    width: auto;
+}
+
+table td.link {
+    border-top: 0;
+    border-bottom: 0; 
+    width: auto;
+    height: 40px;
+    position: relative;
+    background-color: rgba(211, 211, 211, 0.95);
+}
+
+table td.last {
+    border-bottom: 5px solid rgb(156, 130, 74);
+}
+
+.site-list {
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+}
