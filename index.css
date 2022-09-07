@@ -26,6 +26,11 @@ h2 {
     font-size: 40px;
 }
 
+a:hover {
+    color: orangered;
+    cursor: pointer;
+}
+
 .banner {
     background-color: rgb(219, 0, 7);
     border: 5px solid rgb(156, 130, 74);
