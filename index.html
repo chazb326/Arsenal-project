@@ -10,95 +10,37 @@
     <body>    
 <!--Banner-->
         <div class="banner">
-            <h1>Arsenal Project</h1>
-            <img src="assets/images/club-logos/arsenal-logo.svg" alt="Arsenal Logo">
+            <a href="#"><h1>Arsenal Project</h1></a>
+            <a href="#"><img src="assets/images/club-logos/arsenal-logo.svg" alt="Arsenal Logo"></a>
+            <!--make an INLINE list of buttons for the site navigation, and add breadcrumb navigation (which will follow the pages dir. of this app)-->
+            <div class="primary-nav">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="/pages/matches-and-results.html">Matches & Results</a>
+                    </li>
+                    <li>
+                        <a href="#">Premier League Table</a>
+                    </li>
+                    <li>
+                        <a href="#">Current Players</a>
+                    </li>
+                    <li>
+                        <a href="#">Legendary Players</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!--breadcrumb style - '.breadcrumb li+li::before { content: "/"; padding: 10px; }'-->
         </div>
         <!--fixture list table-->
-        <div  class="fixture-list-table">
-            <div>
-                <table>
-                <!--Header row-->
-                    <tr>
-                        <th>Date</th>
-                        <th>Opponent</th>
-                        <th>Home/Away</th>
-                        <th>Winner</th>
-                    </tr>
-            </table>
-            </div>
-            <div>
-                <table>
-                    <!--Fixture content-->
-                    <tr>
-                        <td>Fri Aug. 27th</td>
-                        <td><img src="assets/images/club-logos/fulham.png" alt="Fulham"></td>
-                        <td class="where">H</td>
-                        <td><img src="assets/images/club-logos/arsenal-logo.svg" alt="Arsenal"></td>
-                    </tr>
-                </table>
-                <table>
-                    <!--link to the highlights-->
-                    <tr>
-                        <td class="link">See highlights here: <a href="https://www.youtube.com/watch?v=emjhI8__qAk" title="Watch Fulham vs. Arsenal highlights" 
-                            target="_blank">Fulham @ Arsenal 8/27/2022</a></td>
-                    </tr>
-                </table>
-            </div>
-            <div>
-                <table>
-                    <!--Fixture content-->
-                    <tr>
-                        <td>Fri Aug. 20th</td>
-                        <td><img src="assets/images/club-logos/bournemouth.png" alt="Bournemouth"></td>
-                        <td class="where">A</td>
-                        <td><img src="assets/images/club-logos/arsenal-logo.svg" alt="Arsenal"></td>
-                    </tr>
-                </table>
-                <table>
-                    <!--link to the highlights-->
-                    <tr>
-                        <td class="link">See highlights here: <a href="https://www.youtube.com/watch?v=ftb3nlM9gKU" title="Watch Arsenal vs. Bournemouth` highlights" 
-                            target="_blank">Arsenal @ Bournemouth 8/20/2022</a></td>
-                    </tr>
-                </table>
-            </div>
-            <div>
-                <table>
-                    <!--Fixture content-->
-                    <tr>
-                        <td>Fri Aug. 13th</td>
-                        <td><img src="assets/images/club-logos/leicestercity.png" alt="Leicester City"></td>
-                        <td class="where">H</td>
-                        <td><img src="assets/images/club-logos/arsenal-logo.svg" alt="Arsenal"></td>
-                    </tr>
-                </table>
-                <table>
-                    <!--link to the highlights-->
-                    <tr>
-                        <td class="link">See highlights here: <a href="https://www.youtube.com/watch?v=0dW3d3taopc" title="Watch Leicester City vs. Arsenal highlights" 
-                            target="_blank">Leicester City @ Arsenal 8/13/2022</a></td>
-                    </tr>
-                </table>
-            </div>
-            <div>
-                <table>
-                    <!--Fixture content-->
-                    <tr>
-                        <td>Fri Aug. 5th</td>
-                        <td><img src="assets/images/club-logos/crystalpalace.png" alt="Crystal Palace"></td>
-                        <td class="where">A</td>
-                        <td><img src="assets/images/club-logos/arsenal-logo.svg" alt="Arsenal"></td>
-                    </tr>
-                </table>
-                <table>
-                    <!--link to the highlights-->
-                    <tr class="last">
-                        <td class="link">See highlights here: <a href="https://www.youtube.com/watch?v=U0bndsJANvk" title="Watch Arsenal vs. Crystal Palace highlights"
-                            target="_blank">Arsenal @ Crystal Palace 8/5/2022</a></td>
-                    </tr>
-                </table>
-            </div>
-        </div>
+        <h2 class="page-header">Home</h2>
+        
         <div class="site-list">
             <h2>Things I want for this site</h2>
             <ul>
