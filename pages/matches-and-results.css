@@ -9,10 +9,10 @@
 /*font used as practice for using @font-face*/
 @font-face {
     font-family: 'monospace';
-    src: url('/assets/fonts/SpaceMono-Bold.ttf') format('truetype'),
-    url('/assets/fonts/SpaceMono-BoldItalic.ttf') format('truetype'),
-    url('/assets/fonts/SpaceMono-Italic.ttf') format('truetype'),
-    url('/assets/fonts/SpaceMono-Regular.ttf') format('truetype');
+    src: url('../assets/fonts/SpaceMono-Bold.ttf') format('truetype'),
+    url('../assets/fonts/SpaceMono-BoldItalic.ttf') format('truetype'),
+    url('../assets/fonts/SpaceMono-Italic.ttf') format('truetype'),
+    url('../assets/fonts/SpaceMono-Regular.ttf') format('truetype');
 }
 
 .fixture-list-table {
@@ -21,7 +21,7 @@
     position: relative;
     top: 180px;
     margin: 0 auto;
-    background-image: url(/assets/images/emirates.jpg);
+    background-image: url(../assets/images/emirates.jpg);
     background-position: center;
     border: 1px solid black;
 }
