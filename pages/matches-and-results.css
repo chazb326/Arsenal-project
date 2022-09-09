@@ -16,8 +16,8 @@
 }
 
 .fixture-list-table {
-    width: 60%;
-    padding: 20px 20px;
+    width: 70%;
+    padding: 20px 30px;
     position: relative;
     top: 180px;
     margin: 0 auto;
@@ -27,7 +27,7 @@
 }
 
 table {
-    width: 90%;
+    width: 70%;
     font-family: 'monospace';
     margin: 0 auto;
     text-align: center;
