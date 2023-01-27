@@ -1,0 +1,108 @@
+:root {
+    --arsenal-red: rgb(239, 1, 7);
+    --arsenal-darkred: rgb(219, 0, 7);
+    --arsenal-blue: rgb(6, 54, 114);
+    --arsenal-gold: rgb(156, 130, 74);
+    --arsenal-white: rgb(255, 255, 255);
+}
+
+@font-face {
+    font-family: 'monospace';
+    src: url('../assets/fonts/SpaceMono-Bold.ttf') format('truetype'),
+    url('../assets/fonts/SpaceMono-BoldItalic.ttf') format('truetype'),
+    url('../assets/fonts/SpaceMono-Italic.ttf') format('truetype'),
+    url('../assets/fonts/SpaceMono-Regular.ttf') format('truetype');
+}
+
+div.grid {
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    top: 20px;
+    display: grid;
+    grid-template-columns: 400px 511px;
+    grid-template-rows: 500px;
+    gap: 30px;
+    margin: 0 auto;
+    height: 600px;
+    width: 85%;
+    background-color: lightgray;
+    border: 2px solid gray;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+div.form {
+    height: 500px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid gray;
+    text-align: center;
+    z-index: 2;
+}
+
+hr.section-header {
+    width: 99.5%;
+}
+
+hr {
+    width: 30%;
+}
+
+div.form > form > h3 {
+    margin: 10px auto;
+}
+
+label {
+    font-size: 18px;
+}
+
+select {
+    font-size: 16px;
+    border-radius: 5px;
+    height: 24px;
+    width: fit-content;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type='submit'] {
+    font-weight: 600;
+    padding: 5px 8px;
+    background-color: var(--arsenal-red);
+    font-size: 20px;
+    color:var(--arsenal-white);
+    border-left: 3px solid var(--arsenal-red);
+    border-right: 3px solid var(--arsenal-red);
+    border-top: none;
+    border-bottom: none;
+    border-radius: 4px;
+    transition-duration: 0.2s;
+}
+
+input[type='submit']:hover {
+    background-color:rgb(240, 240, 240);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border-left: 3px solid var(--arsenal-gold);
+    border-right: 3px solid var(--arsenal-gold);
+    transition-duration: 0.2s;
+}
+
+input[type='submit']:active {
+    background-color: var(--arsenal-blue);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border-left: 3px solid var(--arsenal-gold);
+    border-right: 3px solid var(--arsenal-gold);
+    transition-duration: 0.2s;
+}
+
+div.field {
+    display: flex;
+}
+
+div.field > img {
+    position: relative;
+    margin: auto 0;
+}

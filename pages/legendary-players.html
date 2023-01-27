@@ -7,39 +7,44 @@
     <title>Charlie's Arsenal Page</title>
     <link rel="stylesheet" type="text/css" href="../index.css"/>
 </head>
-    <body>    
-<!--Banner-->
-        <div class="banner">
-            <a href="#"><h1>Arsenal Project</h1></a>
-            <a href="#"><img src="../assets/images/club-logos/arsenal-logo.svg" alt="Arsenal Logo"></a>
-            <!--make an INLINE list of buttons for the site navigation, and add breadcrumb navigation (which will follow the pages dir. of this app)-->
-            <div class="primary-nav">
-                <ul>
-                    <li>
-                        <a href="../index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="matches-and-results.html">Matches & Results</a>
-                    </li>
-                    <li>
-                        <a href="premier-league-table.html">Premier League Table</a>
-                    </li>
-                    <li>
-                        <a href="current-players">Current Players</a>
-                    </li>
-                    <li>
-                        <a href="#">Legendary Players</a>
-                    </li>
-                    <li>
-                        <a href="blog.html">Blog</a>
-                    </li>
-                </ul>
+    <body>
+        <nav>
+            <!--Banner-->
+            <div class="banner">
+                <a href="https://www.arsenal.com/"><img src="../assets/images/club-logos/arsenal-logo.svg" alt="Arsenal Logo"></a>
+                <!--make an INLINE list of buttons for the site navigation, and add breadcrumb navigation (which will follow the pages dir. of this app)-->
+                <div class="primary-nav">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="../index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="./matches-and-results.html">Matches & Results</a>
+                        </li>
+                        <li>
+                            <a href="./current-players.html">Current Players</a>
+                        </li>
+                        <li>
+                            <a href="#">Legendary Players</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="hamburger-container">
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+                <!--breadcrumb style - '.breadcrumb li+li::before { content: "/"; padding: 10px; }'-->
             </div>
-            
-            <!--breadcrumb style - '.breadcrumb li+li::before { content: "/"; padding: 10px; }'-->
+        </nav>    
+        <div id="page-container">
+            <h2 class="page-header">Legendary Players</h2>
+            <div class="footer">
+                <p>created by Charlie Burian</p>
+            </div>
         </div>
-        <!--fixture list table-->
-        <h2 class="page-header">Legendary Players</h2>
-        
+        <script src="../main.js"></script>
     </body>
 </html>
