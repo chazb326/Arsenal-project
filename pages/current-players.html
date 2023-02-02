@@ -40,7 +40,9 @@
                 
                 <!--breadcrumb style - '.breadcrumb li+li::before { content: "/"; padding: 10px; }'-->
             </div>
-        </nav>    
+        </nav>
+        <!-- TODO: Form Validation and populating a response with data -->
+        <!-- TODO: Add circles to the field that light up based on the form selections! (JS) -->
         <div id="page-container">
             <h2 class="page-header">Current Players</h2>
             <div class="grid">
@@ -49,8 +51,20 @@
                         <h3>Query Arsenal Players</h3>
                         <section>
                             <hr class="section-header">
-
-                            <label for="position">Select a position:</label>
+                            <br>
+                            <label for="field-area">Area of the pitch:</label>
+                            <select name="field-area" id="field-area">
+                                <option value="default">-------</option>
+                                <option value="forward">Forwards</option>
+                                <option value="midfield">Midfielders</option>
+                                <option value="defense">Defenders</option>
+                                <option value="gk">Goalkeepers</option>
+                            </select>
+                        </section>
+                        <section>
+                            <hr>
+                            <br>
+                            <label for="position">Position:</label>
                             <select name="position" id="position">
                                 <option value="default">---</option>
                                 <option value="lw">LW</option>
@@ -66,9 +80,23 @@
                                 <option value="gk">GK</option>
                             </select>
                         </section>
+                        <section class="radios">
+                            <hr>
+                            <br>
+                            <span>Squad level:</span>
+                            <br>
+                            <input type="radio" name="level" id="starter" value="starter">
+                            <label for="starter" class="level-label">Starter</label>
+                            <input type="radio" name="level" id="substitute" value="substitute">
+                            <label for="substitute" class="level-label">Substitute</label>
+                            <input type="radio" name="level" id="reserves" value="reserves">
+                            <label for="reserves" class="level-label">Reserves</label>
+                            <br>
+                            <br>
+                        </section>
                         <section>
                             <hr>
-
+                            <br>
                             <input type="submit" value="Query">
                         </section>
                     </form>
