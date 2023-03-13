@@ -49,7 +49,7 @@ a:hover {
 .banner {
     background-color: var(--arsenal-darkred);
     border: 5px solid var(--arsenal-gold);
-    height: 100px;
+    height: 110px;
     width: 100%;
     position: fixed;
     display: inline-flex;
