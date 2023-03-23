@@ -1,0 +1,424 @@
+[
+    {
+        "date": "03/19/2023",
+        "where": "Home",
+        "opponent": "Crystal Palace",
+        "competition": "Premier League",
+        "stats": {
+            "goalsFor": 4,
+            "goalsAgainst": 1
+        }
+    },
+    {
+        "date": "03/16/2023",
+        "where": "Home",
+        "opponent": "Sporting CP",
+        "competition": "Europa League",
+        "stats": {
+            "goalsFor": 1,
+            "goalsAgainst": 1,
+            "penaltiesFor": 3,
+            "penaltiesAgainst": 5
+        }
+    },
+    {
+        "date": "03/12/2023",
+        "where": "Away",
+        "opponent": "Fulham",
+        "competition": "Premier League",
+        "stats": {
+            "goalsFor": 3,
+            "goalsAgainst": 0
+        }
+    },
+    {
+        "date": "03/09/2023",
+        "where": "Away",
+        "opponent": "Sporting CP",
+        "competition": "Europa League",
+        "stats": {
+            "goalsFor": 2,
+            "goalsAgainst": 2
+        }
+    },
+    {
+        "date": "03/04/2023",
+        "where": "Home",
+        "opponent": "Bournemouth",
+        "competition": "Premier League",
+        "stats": {
+            "goalsFor": 3,
+            "goalsAgainst": 2
+        }
+    },
+    {
+        "date": "03/01/2023",
+        "where": "Home",
+        "opponent": "Everton",
+        "competition": "Premier League",
+        "stats": {
+            "goalsFor": 4,
+            "goalsAgainst": 0
+        }
+    },
+    {
+        "date": "02/25/2023",
+        "where": "Away",
+        "opponent": "Leicester City",
+        "competition": "Premier League",
+        "stats": {
+            "goalsFor": 1,
+            "goalsAgainst": 0
+        }
+    },
+    {
+        "date": "02/18/2023",
+        "where": "Away",
+        "opponent": "Aston Villa",
+        "competition": "Premier League",
+        "stats": {
+            "goalsFor": 2,
+            "goalsAgainst": 4
+        }
+    },
+    {
+        "date": "02/15/2023",
+        "where": "Home",
+        "opponent": "Manchester City",
+        "competition": "Premier League",
+        "stats": {
+            "goalsFor": 1,
+            "goalsAgainst": 3
+        }
+    },
+    {
+        "date": "02/11/2023",
+        "where": "Home",
+        "opponent": "Brentford FC",
+        "competition": "Premier League",
+        "stats": {
+            "goalsFor": 1,
+            "goalsAgainst": 1
+        }
+    },
+    {
+        "date": "02/04/2023",
+        "where": "Away",
+        "opponent": "Everton",
+        "competition": "Premier League",
+        "stats": {
+            "goalsFor": 0,
+            "goalsAgainst": 1
+        }
+    },
+    {
+        "date": "01/27/2023",
+        "where": "Home",
+        "opponent": "Manchester City",
+        "competition": "The Emirates FA Cup",
+        "stats": {
+            "goalsFor": 0,
+            "goalsAgainst": 1
+        }
+    },
+    {
+        "date": "01/22/2023",
+        "where": "Home",
+        "opponent": "Manchester United",
+        "competition": "Premier League",
+        "stats": {
+            "goalsFor": 3,
+            "goalsAgainst": 2
+        }
+    },
+    {
+        "date": "01/15/2023",
+        "where": "Away",
+        "opponent": "Tottenham Hotspur",
+        "competition": "Premier League",
+        "stats": {
+            "goalsFor": 2,
+            "goalsAgainst": 0
+        }
+    },
+    {
+        "date": "01/09/2023",
+        "where": "Away",
+        "opponent": "Oxford United",
+        "competition": "The Emirates FA Cup",
+        "stats": {
+            "goalsFor": 3,
+            "goalsAgainst": 0
+        }
+    },
+    {
+        "date": "01/03/2023",
+        "where": "Home",
+        "opponent": "Newcastle United",
+        "competition": "Premier League",
+        "stats": {
+            "goalsFor": 0,
+            "goalsAgainst": 0
+        }
+    },
+    {
+        "date": "12/31/2022",
+        "where": "Away",
+        "opponent": "Brighton",
+        "competition": "Premier League",
+        "stats": {
+            "goalsFor": 4,
+            "goalsAgainst": 2
+        }
+    },
+    {
+        "date": "12/26/2022",
+        "where": "Home",
+        "opponent": "West Ham United",
+        "competition": "Premier League",
+        "stats": {
+            "goalsFor": 3,
+            "goalsAgainst": 1
+        }
+    },
+    {
+        "date": "12/17/2022",
+        "where": "Home",
+        "opponent": "Juventus",
+        "competition": "Friendly Match",
+        "stats": {
+            "goalsFor": 0,
+            "goalsAgainst": 2
+        }
+    },
+    {
+        "date": "12/13/2022",
+        "where": "Neutral",
+        "opponent": "AC Milan",
+        "competition": "Dubai Super Cup",
+        "stats": {
+            "goalsFor": 2,
+            "goalsAgainst": 1
+        }
+    },
+    {
+        "date": "12/08/2022",
+        "where": "Neutral",
+        "opponent": "Lyon",
+        "competition": "Dubai Super Cup",
+        "stats": {
+            "goalsFor": 3,
+            "goalsAgainst": 0
+        }
+    },
+    {
+        "date": "11/12/2022",
+        "where": "Away",
+        "opponent": "Wolves",
+        "competition": "Premier League",
+        "stats": {
+            "goalsFor": 2,
+            "goalsAgainst": 0
+        }
+    },
+    {
+        "date": "11/09/2022",
+        "where": "Home",
+        "opponent": "Brighton",
+        "competition": "Carabao Cup",
+        "stats": {
+            "goalsFor": 1,
+            "goalsAgainst": 3
+        }
+    },
+    {
+        "date": "11/06/2022",
+        "where": "Away",
+        "opponent": "Chelsea",
+        "competition": "Premier League",
+        "stats": {
+            "goalsFor": 1,
+            "goalsAgainst": 0
+        }
+    },
+    {
+        "date": "11/03/2022",
+        "where": "Home",
+        "opponent": "FC Zurich",
+        "competition": "Europa League",
+        "stats": {
+            "goalsFor": 1,
+            "goalsAgainst": 0
+        }
+    },
+    {
+        "date": "10/30/2022",
+        "where": "Home",
+        "opponent": "Nottingham Forest",
+        "competition": "Premier League",
+        "stats": {
+            "goalsFor": 5,
+            "goalsAgainst": 0
+        }
+    },
+    {
+        "date": "10/27/2022",
+        "where": "Away",
+        "opponent": "PSV Eindhoven",
+        "competition": "Europa League",
+        "stats": {
+            "goalsFor": 0,
+            "goalsAgainst": 2
+        }
+    },
+    {
+        "date": "10/23/2022",
+        "where": "Away",
+        "opponent": "Southampton",
+        "competition": "Premier League",
+        "stats": {
+            "goalsFor": 1,
+            "goalsAgainst": 1
+        }
+    },
+    {
+        "date": "10/20/2022",
+        "where": "Home",
+        "opponent": "PSV Eindhoven",
+        "competition": "Europa League",
+        "stats": {
+            "goalsFor": 1,
+            "goalsAgainst": 0
+        }
+    },
+    {
+        "date": "10/16/2022",
+        "where": "Away",
+        "opponent": "Leeds",
+        "competition": "Premier League",
+        "stats": {
+            "goalsFor": 1,
+            "goalsAgainst": 0
+        }
+    },
+    {
+        "date": "10/13/2022",
+        "where": "Away",
+        "opponent": "FK Bodo / Glimt",
+        "competition": "Europa League",
+        "stats": {
+            "goalsFor": 1,
+            "goalsAgainst": 0
+        }
+    },
+    {
+        "date": "10/09/2022",
+        "where": "Home",
+        "opponent": "Liverpool",
+        "competition": "Premier League",
+        "stats": {
+            "goalsFor": 3,
+            "goalsAgainst": 2
+        }
+    },
+    {
+        "date": "10/06/2022",
+        "where": "Home",
+        "opponent": "FK Bodo / Glimt",
+        "competition": "Europa League",
+        "stats": {
+            "goalsFor": 3,
+            "goalsAgainst": 0
+        }
+    },
+    {
+        "date": "10/01/2022",
+        "where": "Home",
+        "opponent": "Tottenham Hotspur",
+        "competition": "Premier League",
+        "stats": {
+            "goalsFor": 3,
+            "goalsAgainst": 1
+        }
+    },
+    {
+        "date": "09/18/2022",
+        "where": "Away",
+        "opponent": "Brentford FC",
+        "competition": "Premier League",
+        "stats": {
+            "goalsFor": 3,
+            "goalsAgainst": 0
+        }
+    },
+    {
+        "date": "09/08/2022",
+        "where": "Away",
+        "opponent": "FC Zurich",
+        "competition": "Europa League",
+        "stats": {
+            "goalsFor": 2,
+            "goalsAgainst": 1
+        }
+    },
+    {
+        "date": "09/04/2022",
+        "where": "Away",
+        "opponent": "Manchester United",
+        "competition": "Premier League",
+        "stats": {
+            "goalsFor": 1,
+            "goalsAgainst": 3
+        }
+    },
+    {
+        "date": "08/31/2022",
+        "where": "Home",
+        "opponent": "Aston Villa",
+        "competition": "Premier League",
+        "stats": {
+            "goalsFor": 2,
+            "goalsAgainst": 1
+        }
+    },
+    {
+        "date": "08/27/2022",
+        "where": "Home",
+        "opponent": "Fulham",
+        "competition": "Premier League",
+        "stats": {
+            "goalsFor": 2,
+            "goalsAgainst": 1
+        }
+    },
+    {
+        "date": "08/20/2022",
+        "where": "Away",
+        "opponent": "Bournemouth",
+        "competition": "Premier League",
+        "stats": {
+            "goalsFor": 3,
+            "goalsAgainst": 0
+        }
+    },
+    {
+        "date": "08/13/2022",
+        "where": "Home",
+        "opponent": "Leicester City",
+        "competition": "Premier League",
+        "stats": {
+            "goalsFor": 4,
+            "goalsAgainst": 2
+        }
+    },
+    {
+        "date": "08/05/2022",
+        "where": "Away",
+        "opponent": "Crystal Palace",
+        "competition": "Premier League",
+        "stats": {
+            "goalsFor": 2,
+            "goalsAgainst": 0
+        }
+    }
+]
