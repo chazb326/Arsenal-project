@@ -1,47 +1,82 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-</script>
-
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
+  <NavBar />
+  <div id="page-container">
+    <h1>Welcome...</h1>
+    <br>
+    <ModalExample v-if="showModal" theme="red" @close="toggleModal">
+      <template v-slot:links>
+        <a href="https://www.arsenal.com/">Official Arsenal Website</a>
+      </template>
+      <h1>{{ header }}</h1>
+    </ModalExample>
+    <br>
+    <button id="modal-button" @click="toggleModal" >Love Arsenal?</button>
+  </div>
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
-}
+<script>
+import NavBar from './components/NavBar.vue';
+import ModalExample from './components/Modals/ModalExample.vue';
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
+export default {
+  name: 'App',
+  props: [],
+  components: {
+    NavBar, ModalExample
+  },
+  data() {
+    return {
+      showModal: false,
+      header: "COYG!!"
+    }
+  },
+  methods: {
+    toggleModal() {
+      this.showModal = !this.showModal
+    },
+  },
+  
 }
+</script>
 
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+<style>
+  #page-container {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: max-content;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
   }
 
-  .logo {
-    margin: 0 2rem 0 0;
+  #modal-button {
+    position: relative;
+    padding: 5px;
+    height: fit-content;
+    width: fit-content;
   }
 
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
+  #page-container h1 {
+    position: relative;
+    height: max-content;
+    width: auto;
   }
-}
+  button {
+    color: white;
+    padding: 8px;
+    border: 1px solid black;
+    background: rgb(6, 54, 114);
+    border-radius: 4px;
+    margin: 10px;
+    font-weight: 600;
+  }
+
+  button:hover {
+    cursor: pointer;
+    color: black;
+    border: 1px solid rgb(219, 0, 7);
+    background: white;
+  }
 </style>
