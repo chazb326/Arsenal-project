@@ -1,6 +1,6 @@
 <template>
     <div class="hamburger-container">
-        <div class="hamburger" ref="button" @click="handleClick">
+        <div class="hamburger" ref="button" @click="handleClick" @nav="navClick">
             <span class="bar"></span>
             <span class="bar"></span>
             <span class="bar"></span>
@@ -10,7 +10,7 @@
 
 <script>
 export default {
-    props: [],
+    props: ['mobileNav'],
     data() {
         return {
             isActive: false
@@ -27,6 +27,10 @@ export default {
                 this.$refs.button.classList.remove('active')
                 this.$emit('closeMenu')
             }
+        },
+        navClick() {
+            console.log("I'm trying!")
+            this.$refs.button.classList.remove('active')
         }
     }
 }

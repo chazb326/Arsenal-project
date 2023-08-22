@@ -1,21 +1,17 @@
 <template >
     <div id="nav-bar">
-        <img src="../assets/arsenal-logo.svg" alt="Arsenal Logo">
+        <img src="../assets/images/arsenal-logo.svg" alt="Arsenal Logo">
         <ul class="nav-list" ref="nav" v-show="!mobile">
-            <NavButton text="Home" />
-            <NavButton text="Matches" />
-            <NavButton text="Players" />
-            <NavButton text="Form" />
-            <NavButton text="API" />
+            <router-link to="/" ><NavButton text="Home" /></router-link>
+            <router-link to="/players"><NavButton text="Players" /></router-link>
+            <router-link to="/form"><NavButton text="Form" /></router-link>
         </ul>
-        <HamburgerButton v-show="mobile" @click="toggleMobileNav" />
+        <HamburgerButton v-show="mobile" @click="toggleMobileNav" :mobileNav="mobileNav"/>
         <transition name="mobile-nav">
             <ul class="nav-list active" v-show="mobileNav">
-                <NavButton text="Home" />
-                <NavButton text="Matches" />
-                <NavButton text="Players" />
-                <NavButton text="Form" />
-                <NavButton text="API" />
+                <router-link to="/" @click="toggleMobileNav" ><NavButton text="Home" /></router-link>
+                <router-link to="/players" @click="toggleMobileNav"><NavButton text="Players" /></router-link>
+                <router-link to="/form" @click="toggleMobileNav"><NavButton text="Form" /></router-link>
             </ul>
         </transition>
     </div>
@@ -104,9 +100,9 @@ export default {
         background: white;
     }
     ul.nav-list.active li {
-        margin: 10px auto;
+        margin: 5px auto;
     }
-    ul.nav-list.active li > a {
+    ul.nav-list.active li > button {
         text-decoration: none;
         text-align: center;
         padding: 5px 8px;
@@ -118,21 +114,25 @@ export default {
         transition-duration: 0.2s;
     }
 
-    ul.nav-list.active li > a:hover {
+    ul.nav-list.active li > button:hover {
         background-color:rgb(240, 240, 240);
         color: rgb(0, 0, 0);
         font-size: 20px;
         border-left: 3px solid rgb(156, 130, 74);
         border-right: 3px solid rgb(156, 130, 74);
+        border-top: 3px solid rgb(240, 240, 240);
+        border-bottom: 3px solid rgb(240, 240, 240);
         border-radius: 4px;
         transition-duration: 0.2s;
     }
 
-    ul.nav-list.active li > a:active {
+    ul.nav-list.active li > button:active {
         background-color: rgb(6, 54, 114);
         color: rgb(0, 0, 0);
         font-size: 20px;
         border-left: 3px solid rgb(156, 130, 74);
         border-right: 3px solid rgb(156, 130, 74);
+        border-top: 3px solid rgb(6, 54, 114);
+        border-bottom: 3px solid rgb(6, 54, 114);
     }    
 </style>
