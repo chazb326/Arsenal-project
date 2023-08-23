@@ -43,6 +43,8 @@ export default {
 <style>
     h2 {
         position: relative;
+        top: 20px;
+        margin-bottom: 30px;
     }
     a {
         text-decoration: none;
@@ -56,7 +58,7 @@ export default {
         justify-content: space-around;
         gap: 10px 30px;
         height: max-content;
-        width: 80%;
+        width: 70%;
     }
     div#loading {
         display: flex;

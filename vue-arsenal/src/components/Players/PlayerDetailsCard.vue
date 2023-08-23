@@ -1,5 +1,21 @@
 <template>
-    <div class="player-card">
+    <div class="player-card" v-show="!mobile">
+        <div class="number" id="number">
+            <p>{{ player.number }}</p>
+        </div>
+        <div class="name">
+            <p id="firstName">{{ player.firstName }}</p>
+            <p id="lastName">{{ player.lastName }}</p>
+        </div>
+        <div class="nation">
+            <img :src="createFlagImgURL" alt="player nation flag">
+            <p>{{ player.nation }}</p>
+        </div>
+        <div class="player-image">
+            <img :src="createPlayerImgURL" alt="player picture">
+        </div>
+    </div>
+    <div class="player-card active" v-show="mobile">
         <div class="number" id="number">
             <p>{{ player.number }}</p>
         </div>
@@ -21,9 +37,26 @@
 export default {
     props: ['player'],
     data() {
-        return {}
+        return {
+            mobile: true,
+            windowWidth: null,
+        }
     },
-    methods: {},
+    methods: {
+        checkScreen() {
+            this.windowWidth = window.innerWidth
+            if (this.windowWidth <= 850) {
+                this.mobile = true
+                return
+            }
+            this.mobile = false
+            return
+        }
+    },
+    created() {
+        window.addEventListener('resize', this.checkScreen)
+        this.checkScreen()
+    },
     computed: {
         createPlayerImgURL() {
             if(this.player === null) {
@@ -55,8 +88,22 @@ export default {
 
 <style scoped>
     div.player-card {
-        margin: 10px auto;
-        padding: 4px;
+        margin: 30px auto 10px;
+        padding: 20px;
+        width: fit-content;
+        height: fit-content;
+        color: white;
+        background: white;
+        border-radius: 6px;
+        font-weight: 600;
+        display: grid;
+        grid-template-columns: 75px auto 100px;
+        grid-template-rows: 400px 75px;
+        box-shadow: rgba(6, 54, 114, 0.6) 0px 2px 8px 0px;
+    }
+    div.player-card.active {
+        margin: 30px auto 10px;
+        padding: 20px;
         width: fit-content;
         height: fit-content;
         color: white;
@@ -67,16 +114,6 @@ export default {
         grid-template-columns: 75px auto 100px;
         grid-template-rows: 225px 75px;
         box-shadow: rgba(6, 54, 114, 0.6) 0px 2px 8px 0px;
-    }
-    div.player-card:hover {
-        cursor: pointer;
-        box-shadow: rgba(6, 54, 114, 0.6) 0px 4px 16px 0px;
-    }
-    div.player-card:active {
-        background: lightgray;
-    }
-    div.player-card:hover p#lastName {
-        color: rgb(219, 0, 7);
     }
     div.number {
         display: flex;

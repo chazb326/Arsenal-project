@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import PlayerDetails from '../views/players/PlayerDetails.vue'
+import PlayerDetailsView from '../views/players/PlayerDetailsView.vue'
 import PlayersView from '../views/PlayersView.vue'
 import FormView from '../views/FormView.vue'
 import NotFound from '../views/NotFound.vue'
@@ -19,7 +19,7 @@ const routes = [
   {
     path: '/players/:id',
     name: 'playerDetails',
-    component: PlayerDetails,
+    component: PlayerDetailsView,
     props: true
   },
   {

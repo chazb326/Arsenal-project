@@ -17,22 +17,21 @@ export default {
         }
     },
     methods: {
-        handleClick() {
-            this.isActive = !this.isActive
+        // handleClick() {
+        //     this.isActive = !this.isActive
 
-            if(this.isActive) {
-                this.$refs.button.classList.add('active')
-                this.$emit('openMenu')
-            } else {
-                this.$refs.button.classList.remove('active')
-                this.$emit('closeMenu')
-            }
-        },
-        navClick() {
-            console.log("I'm trying!")
-            this.$refs.button.classList.remove('active')
-        }
-    }
+        //     if(this.isActive) {
+        //         this.$refs.button.classList.add('active')
+        //     } else {
+        //         this.$refs.button.classList.remove('active')
+        //     }
+        // }
+    },
+    // watch: {
+    //     $route() {
+    //         this.checkMobileNav()
+    //     }
+    // }
 }
 </script>
 
@@ -65,7 +64,7 @@ export default {
         border-radius: 5px;
     }
 
-    .hamburger.active .bar:nth-child(2) {
+    /* .hamburger.active .bar:nth-child(2) {
         opacity: 0;
     }
 
@@ -74,6 +73,6 @@ export default {
     }
 
     .hamburger.active .bar:nth-child(3) {
-        transform: translateY(-15px) translateX(7px) rotate(-90deg);
-    }
+        transform: translateY(-14px) translateX(7px) rotate(-90deg);
+    } */
 </style>

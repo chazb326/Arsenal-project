@@ -9,9 +9,10 @@
         <HamburgerButton v-show="mobile" @click="toggleMobileNav" :mobileNav="mobileNav"/>
         <transition name="mobile-nav">
             <ul class="nav-list active" v-show="mobileNav">
-                <router-link to="/" @click="toggleMobileNav" ><NavButton text="Home" /></router-link>
-                <router-link to="/players" @click="toggleMobileNav"><NavButton text="Players" /></router-link>
-                <router-link to="/form" @click="toggleMobileNav"><NavButton text="Form" /></router-link>
+                <button id="clear-mobile-nav" @click="toggleMobileNav">X</button>
+                <router-link to="/"><NavButton text="Home" @click="toggleMobileNav" /></router-link>
+                <router-link to="/players"><NavButton text="Players" @click="toggleMobileNav" /></router-link>
+                <router-link to="/form"><NavButton text="Form" @click="toggleMobileNav" /></router-link>
             </ul>
         </transition>
     </div>
@@ -27,7 +28,7 @@ export default {
         return {
             mobile: true,
             mobileNav: null,
-            windowWidth: null
+            windowWidth: null,
         }
     },
     created() {
@@ -63,6 +64,7 @@ export default {
         position: fixed;
         z-index: 10;
         top: 0;
+        box-shadow: rgba(6, 54, 114, 0.6) 0px 0px 8px 0px;
     }
 
     #nav-bar img {
@@ -85,18 +87,15 @@ export default {
         position: fixed;
         margin-right: 0;
         right: 0;
-        top: 100px;
+        top: 0px;
         border-left: 2px solid rgb(156, 130, 74);
         border-bottom: 2px solid rgb(156, 130, 74);
         border-right: 2px solid rgb(156, 130, 74);
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-        height: auto;
+        height: 100%;
         display: inline-flex;
         flex-direction: column;
-        justify-content: space-around;
         text-align: center;
-        width: 300px;
+        width: 240px;
         background: white;
     }
     ul.nav-list.active li {
@@ -105,7 +104,7 @@ export default {
     ul.nav-list.active li > button {
         text-decoration: none;
         text-align: center;
-        padding: 5px 8px;
+        padding: 5px 40px;
         background-color: white;
         border: 3px solid white;
         font-size: 20px;
@@ -134,5 +133,10 @@ export default {
         border-right: 3px solid rgb(156, 130, 74);
         border-top: 3px solid rgb(6, 54, 114);
         border-bottom: 3px solid rgb(6, 54, 114);
-    }    
+    }
+    button#clear-mobile-nav {
+        position: absolute;
+        right: 0;
+        top: 2px;
+    }
 </style>

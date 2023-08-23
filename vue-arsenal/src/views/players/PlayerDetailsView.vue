@@ -1,11 +1,17 @@
-<template>
-    <div v-if="player">
-        <h1>{{ player.firstName }} {{ player.lastName }}</h1>
-        <p>Position: {{ positionSwitch(player.position) }}</p>
-        <p>Nation: {{ player.nation }}</p>
-        <p>Kit Number: {{ player.number }}</p>
-        <p v-if="player.loan">Current Club: {{ player.loan.club }}, {{ player.loan.length }}</p>
-        <p v-else>Current Club: Arsenal</p>
+<template>    
+    <h2>Player Details</h2>
+    <router-link to="/players">
+        <button>Back</button>
+    </router-link>
+    <div v-if="player" class="player-card">
+        <PlayerDetailsCard :player="player"/>
+        <div class="extra-details">
+            <p>Position: {{ positionSwitch(player.position) }}</p>
+            <p v-if="player.loan">Current Club: {{ player.loan.club }}, {{ player.loan.length }}</p>
+            <p v-else>Current Club: Arsenal</p>
+            <p>TODO: create a PlayerDetailsCard.vue, take away hover, add more data and stats?</p>
+            <p>TODO: add a button for users to go back to the Players page</p>
+        </div>
     </div>
     <div v-else>
         <h2>Loading Player details...</h2>
@@ -13,7 +19,10 @@
 </template>
 
 <script>
+import PlayerDetailsCard from '../../components/Players/PlayerDetailsCard.vue'
+
 export default {
+    components: { PlayerDetailsCard },
     props: ['id'],
     data () {
         return {
@@ -59,6 +68,28 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+    h2 {
+        position: relative;
+        top: 20px;
+        margin-bottom: 40px;
+    }
+    button {
+        position: fixed;
+        float: left;
+        left: 70px;
+        top: 128px;
+        font-size: 18px;
+    }
+    div.player-card {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+    div.extra-details {
+        inline-size: 500px;
+        overflow-wrap: break-word;
+        margin: 0 auto;
+    }
 </style>
