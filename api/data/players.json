@@ -1,0 +1,350 @@
+{
+    "players": [
+        {
+            "id": 1,
+            "firstName": "Aaron",
+            "lastName": "Ramsdale",
+            "position": "gk",
+            "area": "gk",
+            "nation": "England",
+            "number": 1,
+            "loan": null
+        },
+        {
+            "id": 2,
+            "firstName": "David",
+            "lastName": "Raya",
+            "position": "gk",
+            "area": "gk",
+            "nation": "Spain",
+            "number": 22,
+            "loan": null
+        },
+        {
+            "id": 3,
+            "firstName": "Karl",
+            "lastName": "Hein",
+            "position": "gk",
+            "area": "gk",
+            "nation": "Estonia",
+            "number": 31,
+            "loan": null
+        },
+        {
+            "id": 4,
+            "firstName": "Arthur",
+            "lastName": "Okonkwo",
+            "position": "gk",
+            "area": "gk",
+            "nation": "England",
+            "number": 33,
+            "loan": null
+        },
+        {
+            "id": 5,
+            "firstName": "Kieran",
+            "lastName": "Tierney",
+            "position": "lb",
+            "area": "defence",
+            "nation": "Scotland",
+            "number": 3,
+            "loan": null
+        },
+        {
+            "id": 6,
+            "firstName": "Ben",
+            "lastName": "White",
+            "position": "rb",
+            "area": "defence",
+            "nation": "England",
+            "number": 4,
+            "loan": null
+        },
+        {
+            "id": 7,
+            "firstName": "Gabriel",
+            "lastName": "Magalhaes",
+            "position": "lcb",
+            "area": "defence",
+            "nation": "Brazil",
+            "number": 6,
+            "loan": null
+        },
+        {
+            "id": 8,
+            "firstName": "William",
+            "lastName": "Saliba",
+            "position": "rcb",
+            "area": "defence",
+            "nation": "France",
+            "number": 2,
+            "loan": null
+        },
+        {
+            "id": 9,
+            "firstName": "Jakub",
+            "lastName": "Kiwior",
+            "position": "lcb",
+            "area": "defence",
+            "nation": "Poland",
+            "number": 15,
+            "loan": null
+        },
+        {
+            "id": 10,
+            "firstName": "Jurrien",
+            "lastName": "Timber",
+            "position": "rcb",
+            "area": "defence",
+            "nation": "Netherlands",
+            "number": 12,
+            "loan": null
+        },
+        {
+            "id": 11,
+            "firstName": "Rob",
+            "lastName": "Holding",
+            "position": "rcb",
+            "area": "defense",
+            "nation": "England",
+            "number": 16,
+            "loan": null
+        },
+        {
+            "id": 12,
+            "firstName": "Takehiro",
+            "lastName": "Tomiyasu",
+            "position": "rb",
+            "area": "defense",
+            "nation": "Japan",
+            "number": 18,
+            "loan": null
+        },
+        {
+            "id": 13,
+            "firstName": "Oleksandr",
+            "lastName": "Zinchenko",
+            "position": "lb",
+            "area": "defense",
+            "nation": "Ukraine",
+            "number": 35,
+            "loan": null
+        },
+        {
+            "id": 14,
+            "firstName": "Cedric",
+            "lastName": "Soares",
+            "position": "rb",
+            "area": "defense",
+            "nation": "Portugal",
+            "number": 17,
+            "loan": null
+        },
+        {
+            "id": 15,
+            "firstName": "Nuno",
+            "lastName": "Tavares",
+            "position": "lb",
+            "area": "defense",
+            "nation": "Portugal",
+            "number": 20,
+            "loan": null
+        },
+        {
+            "id": 16,
+            "firstName": "Thomas",
+            "lastName": "Partey",
+            "position": "dm",
+            "area": "midfield",
+            "nation": "Ghana",
+            "number": 5,
+            "loan": null
+        },
+        {
+            "id": 17,
+            "firstName": "Martin",
+            "lastName": "Odegaard",
+            "position": "cam",
+            "area": "midfield",
+            "nation": "Norway",
+            "number": 8,
+            "loan": null
+        },
+        {
+            "id": 18,
+            "firstName": "",
+            "lastName": "Jorginho",
+            "position": "dm",
+            "area": "midfield",
+            "nation": "Italy",
+            "number": 20,
+            "loan": null
+        },
+        {
+            "id": 19,
+            "firstName": "Fabio",
+            "lastName": "Vieira",
+            "position": "cam",
+            "area": "midfield",
+            "nation": "Portugal",
+            "number": 21,
+            "loan": null
+        },
+        {
+            "id": 20,
+            "firstName": "Mohamed",
+            "lastName": "Elneny",
+            "position": "dm",
+            "area": "midfield",
+            "nation": "Egypt",
+            "number": 25,
+            "loan": null
+        },
+        {
+            "id": 21,
+            "firstName": "Emile",
+            "lastName": "Smith-Rowe",
+            "position": "cm",
+            "area": "midfield",
+            "nation": "England",
+            "number": 10,
+            "loan": null
+        },
+        {
+            "id": 22,
+            "firstName": "Kai",
+            "lastName": "Havertz",
+            "position": "cm",
+            "area": "midfield",
+            "nation": "Germany",
+            "number": 29,
+            "loan": null
+        },
+        {
+            "id": 23,
+            "firstName": "Declan",
+            "lastName": "Rice",
+            "position": "cm",
+            "area": "midfield",
+            "nation": "England",
+            "number": 41,
+            "loan": null
+        },
+        {
+            "id": 24,
+            "firstName": "Albert",
+            "lastName": "Lokonga",
+            "position": "dm",
+            "area": "midfield",
+            "nation": "Belgium",
+            "number": 23,
+            "loan": null
+        },
+        {
+            "id": 25,
+            "firstName": "Bukayo",
+            "lastName": "Saka",
+            "position": "rw",
+            "area": "forward",
+            "nation": "England",
+            "number": 7,
+            "loan": null
+        },
+        {
+            "id": 26,
+            "firstName": "Gabriel",
+            "lastName": "Martinelli",
+            "position": "lw",
+            "area": "forward",
+            "nation": "Brazil",
+            "number": 11,
+            "loan": null
+        },
+        {
+            "id": 27,
+            "firstName": "Reiss",
+            "lastName": "Nelson",
+            "position": "rw",
+            "area": "forward",
+            "nation": "England",
+            "number": 24,
+            "loan": null
+        },
+        {
+            "id": 28,
+            "firstName": "Gabriel",
+            "lastName": "Jesus",
+            "position": "st",
+            "area": "forward",
+            "nation": "Brazil",
+            "number": 9,
+            "loan": null
+        },
+        {
+            "id": 29,
+            "firstName": "Eddie",
+            "lastName": "Nketiah",
+            "position": "st",
+            "area": "forward",
+            "nation": "England",
+            "number": 14,
+            "loan": null
+        },
+        {
+            "id": 30,
+            "firstName": "Leandro",
+            "lastName": "Trossard",
+            "position": "st",
+            "area": "forward",
+            "nation": "Belgium",
+            "number": 19,
+            "loan": null
+        },
+        {
+            "id": 31,
+            "firstName": "Nicolas",
+            "lastName": "Pepe",
+            "position": "rw",
+            "area": "forward",
+            "nation": "Ivory Coast",
+            "number": 19,
+            "loan": null
+        },
+        {
+            "id": 32,
+            "firstName": "Folarin",
+            "lastName": "Balogun",
+            "position": "st",
+            "area": "forward",
+            "nation": "England",
+            "number": 26,
+            "loan": null
+        },
+        {
+            "id": 33,
+            "firstName": "Runar-Alex",
+            "lastName": "Runarsson",
+            "position": "gk",
+            "area": "gk",
+            "nation": "Iceland",
+            "number": 13,
+            "loan": {
+                "club": "OH Leuven",
+                "length": "season"
+            }
+        },        
+        {
+            "id": 34,
+            "firstName": "",
+            "lastName": "Marquinhos",
+            "position": "rw",
+            "area": "forward",
+            "nation": "Brazil",
+            "number": 27,
+            "loan": {
+                "club": "Norwich City F.C",
+                "length": "half-season"
+            }
+        }
+    ]
+}
